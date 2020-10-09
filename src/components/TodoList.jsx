@@ -5,7 +5,7 @@ function TodoList({ todos }) {
    
     return (
         <div>
-            <h3>{TodoList.name}</h3>
+            <h3>{todos.name}</h3>
             <TodoInput />
             <p></p>
             <p></p>
