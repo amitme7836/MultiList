@@ -8,7 +8,7 @@ function TodoInput() {
     return (
         <div>
             <h3>TodoInput</h3>
-            <div className="row">
+            <div>
                 <input type="text" 
                        value={name}
                        onChange={(e)=>setName(e.target.value)} />

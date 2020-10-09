@@ -1,5 +1,4 @@
 import React from 'react';
-import TodoInput from './components/TodoInput';
 import TodoList from './components/TodoList';
 function App() {
   return (
@@ -9,7 +8,6 @@ function App() {
       alignItems: "center",
       flexDirection:"column"
 }}>
-      <TodoInput />
       <TodoList />
     </div>
   );
