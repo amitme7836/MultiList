@@ -8,7 +8,7 @@ function App() {
       justifyContent: "center",
       alignItems: "center",
       flexDirection:"column"
-    /*hello hello*/}}>
+}}>
       <TodoInput />
       <TodoList />
     </div>
