@@ -7,11 +7,11 @@ function TodoItem({ todo }) {
        
     return (
         <div>
-            <h4>{todo.name}</h4>
-            <div className="row">
+            <div>
                 <div>#{todo.id}</div>
                 <div>{todo.name}</div>
                 <button onClick={()=> dispatch( deleteTodo(todo.id) )}>Delete</button>
+                <p></p><p></p>
             </div>
         </div>
     )

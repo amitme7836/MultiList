@@ -7,7 +7,7 @@ function TodoInput() {
     let dispatch = useDispatch();
     return (
         <div>
-            <h3>TodoInput</h3>
+            <h3>Add task to do in this list</h3>
             <div>
                 <input type="text" 
                        value={name}

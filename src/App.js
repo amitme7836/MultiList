@@ -1,5 +1,5 @@
 import React from 'react';
-import TodoList from './components/TodoList';
+import TodoListApp from './components/TodoListApp'
 function App() {
   return (
     <div className="App" style={{
@@ -8,7 +8,7 @@ function App() {
       alignItems: "center",
       flexDirection:"column"
 }}>
-      <TodoList />
+     <TodoListApp/>
     </div>
   );
 }
